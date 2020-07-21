@@ -1,0 +1,74 @@
+body {
+    font-family: 'Mali', cursive;
+    background-image: url(image/bg.jpg);
+}
+
+.sch {
+    float: right;
+
+}
+
+.imgcenter {
+    /*รูปไว้ตรงกลาง*/
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ml a {
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 20px;
+    padding: 20px;
+    border: 2px solid #73AD21;
+}
+
+.ml a:hover {
+    color: #965119;
+}
+
+header {
+    font-family: 'Pacifico', cursive;
+    height: 50;
+    padding: 30px;
+    text-align: left;
+    font-size: 80px;
+    color: black;
+}
+
+.nav1 {
+    float: left;
+    width: 25%;
+    height: 500px;
+
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+article {
+    font-family: 'Mali', cursive;
+    float: left;
+    padding: 20px;
+    width: 55%;
+    height: 500px;
+}
+
+.nav2 {
+    float: left;
+    width: 20%;
+    height: 500px;
+
+    padding: 20px;
+}
+
+section:after {
+    content: "";
+    display: table;
+    clear: both;
+}
